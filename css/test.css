@@ -1,0 +1,206 @@
+html,
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #F2785C;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header {
+    font-family: 'Aleo';
+    width: 1440px;
+    height: 765px;
+    background: url("../img/garrett-parker-DlkF4-dbCOU-unsplash1.png") no-repeat center;
+    margin: auto;
+}
+
+.header__nav, .pic-list, .row-list, .slider__list {
+    display: flex;
+    flex-direction: row;
+} 
+.main, .steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-list, .main, .steps{    
+    align-items: center;
+}
+.nav {
+    width: 1440px;
+    height: 90px;
+    background-color: rgba(242, 120, 92, 0.7);
+
+}
+
+.header__logo {
+    margin-top: 26px;
+    margin-left: 120px;
+}
+
+.logo__name {
+    margin-left: 6px;
+} 
+.row-list {  
+    list-style: none;
+    gap: 42px;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+}
+
+.nav__row-list {
+    margin-left: 158px;
+
+}
+
+.login-button {
+    border: none;
+    width: 103px;
+    height: 42px;
+    background-color: #0D606F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+
+.header__login-button {
+    margin-left: 196px;
+    margin-top: 25px;
+}
+
+.planning {
+    width: 892px;
+    height: 422px;
+}
+
+.header__planning {
+    margin-left: 120px;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.white-bold-text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.planning__caption {
+    margin-top: 32px;
+}
+
+.planning__white-bold-text {
+    margin-top: 32px;
+}
+
+.search-box {
+    width: 892px;
+    height: 95px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+
+.planning__search-box {
+    margin-top: 46px;
+}
+
+.input-search {
+    width: 560px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    color: #F2785C;
+
+}
+
+.search-box__input-search {
+    margin-left: 42px;
+    margin-top: 32px;
+}
+
+.search-button {
+    border: none;
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.main { 
+    margin: auto;
+    width: 1440px;
+    background-color: #FFFFFF;
+
+}
+
+.red-caption {
+    text-align: center;
+    font-size: 40px;
+    line-height: 53px;
+    font-family: 'Red Hat Text';
+}
+
+.steps { 
+}
+
+.steps__red-caption {
+    margin-top: 80px;
+}
+
+.pic-list {
+    width: 100%; 
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 40px;
+
+}
+
+.pic-list__item {
+    text-align: center;
+}
+.pic-list__img{
+    width: 100px;
+height: 100px;
+}
+.pic-list__caption { 
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+.red-caption__destinations{
+    margin-top: 64px;
+}
+
+.slider__list{
+    gap: 60px;
+} 
+.row-list__item:hover,
+.login-button:hover {
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: 	#F5F5F5;
+    background-color: #F5F5F5;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -10,18 +10,33 @@ body {
     width: 1440px;
     height: 765px;
     background: url("../img/garrett-parker-DlkF4-dbCOU-unsplash1.png") no-repeat center;
-    margin: auto; 
+    margin: auto;
 }
 
+.flex_row_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.aleo_normal {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.red_hat_text_normal{ 
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+}
 .header__top_container {
     width: 1440px;
     height: 90px;
     background-color: #f2785c;
     opacity: 0.7;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     font-family: 'Red Hat Text', sans-serif;
     color: #FFFFFF;
     font-style: normal;
@@ -47,9 +62,6 @@ body {
 
 .header__top_container__nav_panel__list {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 42px;
 }
 
@@ -72,42 +84,29 @@ body {
     margin: 32px 428px 0px 120px;
 }
 
-.header__plan_box__caption {
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 700;
+.header__plan_box__caption { 
     font-size: 80px;
-    line-height: 96px;
-
+    line-height: 96px; 
     color: #FFFFFF;
 }
 
 .header__plan_box__text {
-    margin-top: 32px;
-    font-family: 'Aleo';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height */
+    margin-top: 32px; 
+    font-style: italic; 
+    line-height: 24px; 
     color: #FFFFFF;
 }
 
 .header__plan_box__search_box {
     height: 95px;
     margin-top: 46px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
 }
 
 .header__plan_box__search_box__text {
     width: 560px;
-    height: 22px;
-    font-family: 'Aleo';
+    height: 22px; 
     font-style: italic;
     font-weight: 600;
     font-size: 24px;
@@ -120,81 +119,76 @@ body {
     color: #F2785C;
     margin-left: 41px;
 }
-.header__plan_box__search_box__text:focus{
+
+.header__plan_box__search_box__text:focus {
     background: transparent;
     border: none;
-    
+
 }
+
 .header__plan_box__search_box__search_button {
     width: 228px;
     height: 59px;
-    margin-left: 45px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 45px;
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 32px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
 
 }
 
-.header__top_container__Login_button:hover,  .header__plan_box__search_box__search_button:hover{
+.header__top_container__Login_button:hover,
+.header__plan_box__search_box__search_button:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     cursor: pointer;
 }
-.main{
+
+.main {
     width: 1440px;
     height: 1440px;
     background-color: #FFFFFF;
 }
-.main__perfect_trip{  
-height: 247px;   
-display: flex;
-flex-direction: column;
-align-items: center;
-align-content: center;
+
+.main__perfect_trip {
+    height: 247px;
+    flex-direction: column;
 }
-.main__perfect_trip__caption{  
-    margin-top: 80px ; 
+
+.main__perfect_trip__caption {
+    margin-top: 80px;
     font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 53px;
-/* identical to box height */ 
-color: #F2785C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    color: #F2785C;
 }
-.main__perfect_trip__list{width: 1177px;
+
+.main__perfect_trip__list {
+    width: 1177px;
     height: 247px;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 
 }
-.main__perfect_trip__list__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
 
+.main__perfect_trip__list__item {
+    flex-direction: column; 
 }
+
 .main__perfect_trip__list__item__text {
-    font-family: 'Aleo';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */ 
-color: #0D606F;
+    margin-top: 30px; 
+    font-weight: 300; 
+    line-height: 24px; 
+    color: #0D606F;
 }
+
 .header__top_container__nav_panel__list__item:hover,
 .header__top_container__logo__img:hover,
 .header__top_container__logo__name:hover {

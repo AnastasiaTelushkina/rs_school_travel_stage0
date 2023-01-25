@@ -12,14 +12,14 @@
 </head>
 <body>
     <header class="header"> 
-        <div class="header__top_container">
+        <div class="header__top_container flex_row_center">
         <div class="header__top_container__logo">
             <img class="header__top_container__logo__img" src="./img/Vector.png"/>
             <img class="header__top_container__logo__name"src ="./img/Travel portal.png"/>
 
         </div>
         <nav class="header__top_container__nav_panel"> 
-            <ul class="header__top_container__nav_panel__list">
+            <ul class="header__top_container__nav_panel__list flex_row_center">
                 <li class="header__top_container__nav_panel__list__item">How It Works</li>
                 <li class="header__top_container__nav_panel__list__item">Plan Your Trip</li>
                 <li class="header__top_container__nav_panel__list__item">Destinations</li>
@@ -29,21 +29,21 @@
         <button class="header__top_container__Login_button">Login</button>
 
         </div> 
-        <div class="header__plan_box">
+        <div class="header__plan_box aleo_normal">
             <div class="header__plan_box__caption">Explore the beauty of the World</div>
             <div class="header__plan_box__text">Receive personalized recommendations for countries, hotels, activities and more</div>
-        <div class="header__plan_box__search_box">
+        <div class="header__plan_box__search_box flex_row_center">
             <input type="search" Value = "What would you like to do? "  class="header__plan_box__search_box__text"> 
              
-            <div class="header__plan_box__search_box__search_button">Start Planning</div>
+            <div class="header__plan_box__search_box__search_button flex_row_center">Start Planning</div>
         </div>
         </div>
     </header>
     <main class="main">
-        <div class="main__perfect_trip">
+        <section class="main__perfect_trip flex_row_center">
             <div class="main__perfect_trip__caption">3 STEPS TO THE PERFECT TRIP</div>
-            <ul class="main__perfect_trip__list">
-                <li class="main__perfect_trip__list__item">
+            <ul class="main__perfect_trip__list flex_row_center">
+                <li class="main__perfect_trip__list__item flex_row_center">
                     <img src="./img/Frame 28.png" alt="" class="main__perfect_trip__list__item_img">
                     <div class="main__perfect_trip__list__item__text">Tell us what you want to do</div>
                 </li>
@@ -56,7 +56,14 @@
                     <div class="main__perfect_trip__list__item__text">We will give you recommendations</div>
                 </li>
             </ul>
-        </div> 
+        </section> 
+        <section class="main__popular_destinations">
+            <ul class="main__popular_destinations__galary">
+                <li class="main__popular_destinations__galary__item"></li>
+                <li class="main__popular_destinations__galary__item"></li>
+                <li class="main__popular_destinations__galary__item"></li> 
+            </ul>
+        </section>
     </main>
 </body>
 </html>

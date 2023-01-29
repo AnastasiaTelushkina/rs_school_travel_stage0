@@ -347,6 +347,9 @@ body {
     margin-left: 328px;
 }
 .row-list__item:hover,
-.login-button:hover {
+.login-button:hover,
+.search-button:hover,
+.item__read-link:hover
+ {
     cursor: pointer;
 }

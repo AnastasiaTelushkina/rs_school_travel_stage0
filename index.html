@@ -1,69 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,300;1,700&family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,300;1,700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Travel Portal</title>
-</head>
-<body>
-    <header class="header"> 
-        <div class="header__top_container flex_row_center">
-        <div class="header__top_container__logo">
-            <img class="header__top_container__logo__img" src="./img/Vector.png"/>
-            <img class="header__top_container__logo__name"src ="./img/Travel portal.png"/>
+  </head>
 
+  <body>
+    <header class="header">
+      <nav class="nav header__nav">
+        <div class="logo header__logo">
+          <img class="logo__img" src="./img/Vector.png" />
+          <img class="logo__name" src="./img/Travel portal.png" />
         </div>
-        <nav class="header__top_container__nav_panel"> 
-            <ul class="header__top_container__nav_panel__list flex_row_center">
-                <li class="header__top_container__nav_panel__list__item">How It Works</li>
-                <li class="header__top_container__nav_panel__list__item">Plan Your Trip</li>
-                <li class="header__top_container__nav_panel__list__item">Destinations</li>
-                <li class="header__top_container__nav_panel__list__item">Travel Stories</li>
-            </ul>
-        </nav>
-        <button class="header__top_container__Login_button">Login</button>
-
-        </div> 
-        <div class="header__plan_box aleo_normal">
-            <div class="header__plan_box__caption">Explore the beauty of the World</div>
-            <div class="header__plan_box__text">Receive personalized recommendations for countries, hotels, activities and more</div>
-        <div class="header__plan_box__search_box flex_row_center">
-            <input type="search" Value = "What would you like to do? "  class="header__plan_box__search_box__text"> 
-             
-            <div class="header__plan_box__search_box__search_button flex_row_center">Start Planning</div>
+        <ul class="row-list nav__row-list">
+          <li class="row-list__item">How It Works</li>
+          <li class="row-list__item">Plan Your Trip</li>
+          <li class="row-list__item">Destinations</li>
+          <li class="row-list__item">Travel Stories</li>
+        </ul>
+        <button class="login-button header__login-button">Login</button>
+      </nav>
+      <div class="planning header__planning">
+        <div class="caption planning__caption">Explore the beauty of the World</div>
+        <div class="white-bold-text  planning__white-bold-text">Receive personalized recommendations for countries, hotels, activities and more</div>
+        <div class="search-box planning__search-box">
+            <input type="search" Value = "What would you like to do? "  class="input-search search-box__input-search">
+            <button class="search-button search-box__search-button">Start Planning</button>
         </div>
-        </div>
+      </div>
     </header>
     <main class="main">
-        <section class="main__perfect_trip flex_row_center">
-            <div class="main__perfect_trip__caption">3 STEPS TO THE PERFECT TRIP</div>
-            <ul class="main__perfect_trip__list flex_row_center">
-                <li class="main__perfect_trip__list__item flex_row_center">
-                    <img src="./img/Frame 28.png" alt="" class="main__perfect_trip__list__item_img">
-                    <div class="main__perfect_trip__list__item__text">Tell us what you want to do</div>
-                </li>
-                <li class="main__perfect_trip__list__item">
-                    <img src="./img/Frame 11.png" alt="" class="main__perfect_trip__list__item_img">
-                    <div class="main__perfect_trip__list__item__text">Share us preferable dates </div>
-                </li>
-                <li class="main__perfect_trip__list__item">
-                    <img src="./img/Frame 12.png" alt="" class="main__perfect_trip__list__item_img">
-                    <div class="main__perfect_trip__list__item__text">We will give you recommendations</div>
-                </li>
-            </ul>
-        </section> 
-        <section class="main__popular_destinations">
-            <ul class="main__popular_destinations__galary">
-                <li class="main__popular_destinations__galary__item"></li>
-                <li class="main__popular_destinations__galary__item"></li>
-                <li class="main__popular_destinations__galary__item"></li> 
-            </ul>
+        <section class="steps steps__main">
+            <div class="red-caption steps__red-caption">3 STEPS TO THE PERFECT TRIP</div>
+        <ul class="pic-list steps__pic-list">
+            <li class="pic-list__item">
+                <img src="./img/Frame 28.png" alt="" class="pic-list__img">
+                <div class="pic-list__caption">Tell us what you want to do</div>
+            </li>
+            <li class="pic-list__item">
+                <img src="./img/Frame 11.png" alt="" class="pic-list__img">
+                <div class="pic-list__caption">Share us preferable dates </div>
+            </li>
+            <li class="pic-list__item">
+                <img src="./img/Frame 12.png" alt="" class="pic-list__img">
+                <div class="pic-list__caption">We will give you recommendations</div>
+            </li>
+        </ul>
         </section>
+        <section class="destinations main__destinations">
+            <div class="red-caption red-caption__destinations">POPULAR DESTINATIONS</div>
+            <div class="slider destinations__slider">
+                <ul class="slider__list">
+                    <li class="slider__list__item"><img src="./img/des1.png" alt="" class="slider__item_img"></li>
+                    <li class="slider__list__item"><img src="./img/des2.png" alt="" class="slider__item_img"></li>
+                    <li class="slider__list__item"><img src="./img/des3.png" alt="" class="slider__item_img"></li>
+                </ul>
+                <div class="slider__dots-list">
+                  <img src="./img/Ellipse 1.png" alt="" class="slider__dots">
+                  <img src="./img/Ellipse 2.png" alt="" class="slider__dots">
+                  <img src="./img/Ellipse 1.png" alt="" class="slider__dots"> 
+                </div>
+                <button class="search-button destinations__search-button"><img src="./img/arrow.png" alt="" class="arrow">Find More</button>
+            </div> 
+        </section>
+        <img src="./img/footer-background.png" alt="" class="stories-bg-img"> 
+        <section class="stories"> 
+          <div class="red-caption red-caption__stories">TRAVEL STORIES</div>
+        <ul class="stories-list">
+            <li class="stories-list__item">
+                <img src="./img/stories1.png" alt="" class="item__img">
+                <div class="item__article">
+                    <div class="item__caption">10 Photos of Attractive Thailand</div>
+                    <div class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                    <div class="item__read-link">Read More</div></div> 
+            </li>
+            <li class="stories-list__item">
+                <img src="./img/stories2.png" alt="" class="item__img">
+                <div class="item__article">
+                    <div class="item__caption">Canyonlands National Park, Utah</div>
+                    <div class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </div>
+                    <div class="item__read-link">Read More</div></div> 
+            </li>
+            <li class="stories-list__item">
+                <img src="./img/stories3.png" alt="" class="item__img">
+                <div class="item__article">
+                    <div class="item__caption">I left my heart in the Mountains!</div>
+                    <div class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </div>
+                    <div class="item__read-link">Read More</div></div> 
+            </li>
+            <li class="stories-list__item">
+                <img src="./img/stories4.png" alt="" class="item__img">
+                <div class="item__article">
+                    <div class="item__caption">The Longest journey in my life!</div>
+                    <div class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </div>
+                    <div class="item__read-link">Read More</div></div> 
+            </li>
+        </ul>
+        <button class="search-button stories__search-button"><img src="./img/arrow.png" alt="" class="arrow"> See More</button>
+        </section>
+
     </main>
-</body>
+    <footer class="footer">
+        <img src="./img/rights.png" alt="" class="rights">
+        <ul class="footer-list">
+            <li class="footer-list__item"><img src="./img/akar-icons_instagram-fill.png" alt="" class="footer-list__item__img"></li>
+            <li class="footer-list__item"><img src="./img/akar-icons_video.png" alt="" class="footer-list__item__img"></li>
+            <li class="footer-list__item"><img src="./img/akar-icons_twitter-fill.png" alt="" class="footer-list__item__img"></li>
+        </ul>
+    </footer>
+  </body>
 </html>

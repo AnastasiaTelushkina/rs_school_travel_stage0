@@ -17,11 +17,11 @@ body {
     margin: auto;
 }
 
-.header__nav, .pic-list, .row-list, .slider__list {
+.header__nav, .row-list, .slider__list, .slider__dots-list{
     display: flex;
     flex-direction: row;
 } 
-.main, .steps {
+.main, .steps .slider  {
     display: flex;
     flex-direction: column;
 }
@@ -171,7 +171,9 @@ body {
 }
 
 .pic-list {
-    width: 100%; 
+    width: 1440px; 
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
     margin-top: 40px;
@@ -199,7 +201,30 @@ height: 100px;
 
 .slider__list{
     gap: 60px;
+    padding-left: 0px;
 } 
+.slider__dots{
+    width: 20px;
+    height: 20px;
+    
+}
+.slider__dots-list{
+    margin-top: 24px;
+    justify-content: center;
+    gap: 10px;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.destinations__search-button{
+    margin-top: 40px;
+}
+.red-caption__stories{
+    margin-top: 80px;
+}
 .row-list__item:hover,
 .login-button:hover {
     cursor: pointer;
